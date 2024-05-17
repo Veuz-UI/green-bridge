@@ -35,11 +35,11 @@
 
   <section class="inner-service">
     <div class="container">
-      <div class="service-head">
+      <div class="service-head" data-aos="fade-up" data-aos-duration="1500">
         <h5>What we do</h5>
         <h2>Serving logistics with commitment</h2>
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-duration="1500">
           <div class="col-md-4">
              <a href="service-detaile.php">
               <div class="service_box">
@@ -109,7 +109,7 @@
           </div>
           
 
-         <div class="row d-flex justify-content-center">
+         <div class="row d-flex justify-content-center" data-aos="fade-up" data-aos-duration="1500">
           <div class="col-md-4">
             <a href="service-detaile.php">
               <div class="service_box innr-srvce-mrgin">

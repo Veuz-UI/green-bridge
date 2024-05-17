@@ -37,7 +37,7 @@
   <section class="color-bg section-spacing-2">
     <div class="container">
       <div class="row d-flex justfy-content-center align-items-center">
-        <div class="col-lg-5">
+        <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1500">
           <h2 class="inner-sub-head">
             Green Bridges Company is a leading Saudi Arabian Company. 
           </h2>
@@ -53,7 +53,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-duration="1500">
         <div class="col-lg-8">
           <div class="innr-abt-img-1">
             <img src="assets/img/inner-abt-1.png" alt="" class="img-fluid">
@@ -119,7 +119,7 @@
         </ul>
       </div>
 
-      <div class="tab-content pt-5" data-aos="fade-up" data-aos-duration="1500" id="tab-content">
+      <div class="tab-content pdn-5" data-aos="fade-up" data-aos-duration="1500" id="tab-content">
         <div class="tab-pane " id="simple-tabpanel-0" role="tabpanel" aria-labelledby="simple-tab-0">
           <div class="tab-box-detail">
             <h5>
@@ -231,7 +231,7 @@
         </div>
         <div class="col-lg-7 m-auto">
           <div class="container-content" data-aos="zoom-in" data-aos-duration="1500">
-            <h3>Safety isour Main Concern</h3>
+            <h3>Safety is our Main Concern</h3>
             <h2>BE SAFE & WORK SAFE</h2>
             <h5>Always Maintain Safety</h5>
             <a href="contact.html">

@@ -25,6 +25,12 @@ a {
     position: relative;
 }
 
+.home-slider img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .banner-slider .owl-dots {
     position: absolute;
     right: 0px;
@@ -175,6 +181,14 @@ a {
 
 .client-carousel {
     margin-top: 40px;
+}
+
+.client-carousel .owl-nav{
+    display: none !important;
+}
+
+.client-carousel .owl-dots{
+    display: none !important;
 }
 
 .abt-img {
@@ -493,8 +507,8 @@ a {
     background-image: url(../img/bg.png);
     background-size: cover;
     background-position: center;
-    height: 430px;
     width: 100%;
+    padding: 0px 0px 90px 0px;
 }
 
 .container-img {
@@ -812,7 +826,7 @@ a {
 
 .inner-service {
     padding: 80px 0px;
-    background-size: 100%;
+    background-size: cover;
     background-image: url(../img/srvce-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -996,6 +1010,10 @@ a {
     border-radius: 10px;
 }
 
+.srvce-cntnt{
+    margin-left: 40px;
+}
+
 .srvce-cntnt p {
     color: #696b85;
     margin-top: 25px;
@@ -1011,8 +1029,8 @@ a {
     color: var(--black);
     font-weight: 700;
     font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-top: 35px;
 }
 
 .srvce-inner-cntns ul li {
@@ -1023,6 +1041,7 @@ a {
     margin-left: 30px;
     margin-bottom: 15px;
     position: relative;
+    line-height: 30px;
 }
 
 .srvce-inner-cntns ul li:before {
@@ -1059,7 +1078,7 @@ a {
     background-color: #f8f8f8;
     padding: 20px;
     min-height: 140px;
-    transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .contact-box-icon {
@@ -1199,17 +1218,127 @@ a {
     text-align: center;
   }
 
+  .srvce-sidebar{
+    min-height: 400px;
+    width: 100%;
+    background-image: url(../img/transportation/service-sidebar.jpg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    text-align: center;
+    margin-top: 30px;
+  }
 
+  .srvce-sidebar h5{
+    font-size: 30px;
+    font-weight: 600;
+  }
 
+  .srvce-sidebar p{
+    color: #545454;
+    font-size: 15px;
+    font-weight: 400;
+  }
 
+  .srvce-inputs input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
 
+  .srvce-inputs input::placeholder{
+    font-size: 14px !important;
+  }
 
+  .srvce-inputs textarea{
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
 
+  .srvce-inputs input:focus-visible{
+    outline: none;
+  }
+  
+  .srvce-inputs textarea:focus-visible{
+    outline: none;
+  }
+  .srvce-inputs textarea::placeholder{
+    font-size: 14px;
+  }
 
+  .srvce-sidebar-2{
+    min-height: 400px;
+    width: 100%;
+    background-image: url(../img/transportation/service-sidebar2.jpg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    text-align: center;
+    margin-top: 30px;
+  }
 
+  .srvce-sidebar-2 h5{
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 500;
+  }
 
+  .srvce-sidebar-2 h6{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 22px;
+  }
 
+  .srvce-sidebar-2 a p{
+    color: var(--white);
+    font-size: 15px;
+    margin-top: 10px;
+  }
 
+  .box-points{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-points h6{
+    padding: 10px 25px;
+    border: 1px solid #ebebeb;
+    width: fit-content;
+    color: var(--heading-color);
+    border-radius: 30px;
+    margin-right: 15px;
+    margin-top: 8px;
+    transition: .5s;
+    cursor: pointer;
+  }
+  
+  .box-points h6:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    transition: .5s;
+    transform: translateY(-4px);
+  }
+
+  .copy-right-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .pdn-5{
+    padding-top: 30px;
+  }
 
 
 
@@ -1255,6 +1384,9 @@ a {
     .banner-para {
         font-size: 16px;
     }
+    .home-slider {
+        height: 70vh;
+    }
 }
 
 @media screen and (max-width: 1366px) {
@@ -1281,5 +1413,191 @@ a {
 
     .blog-slider h5 {
         font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .about-tabs-head li a{
+        margin-top: 20px;
+    }
+    .section-spacing-2 {
+        padding: 50px 0px;
+    }
+    .service-box h5{
+        font-size: 19px;
+    }
+    .inner-sub-head {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .service_box h3{
+        top: 20px;
+        font-size: 17px;
+    }
+    .srvce-sidebar h5 {
+        font-size: 20px;
+    }
+    .srvce-sidebar{
+        padding: 15px;
+        min-height: 380px;
+    }
+    .srvce-cntnt {
+        margin-left: 10px;
+    }
+    .srvce-sidebar-2 h5{
+        font-size: 20px;
+    }
+    .srvce-sidebar-2{
+        min-height: 380px;
+    }
+    .input-main-div{
+        padding: 60px 100px;
+    }
+    .inner-banner{
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links ul li a{
+        width: fit-content;
+    }
+    .abt-img {
+        display: block;
+        margin: 0 auto 30px;
+    }
+    .container-img{
+        width: 320px;
+        margin: 0 auto 30px;
+        display: block;
+        float: none;
+    }
+    .mt-50 {
+        margin-top: 20px !important;
+    }
+    .footer-link-head{
+        margin-top: 10px;
+    }
+    .innr-abt-img-1{
+        margin: 10px 0px;
+    }
+    .service_box{
+        height: 280px;
+    }
+    .srvce-sidebar{
+        display: none;
+    }
+    .srvce-sidebar-2{
+        display: none;
+    }
+    .srvce-cntnt{
+        margin-left: 0px;
+    }
+    .srvce-cntnt h2{
+        margin-top: 20px;
+    }
+    .inner-detaile-service {
+        padding: 60px 0px;
+    }
+    .input-main-div {
+        padding: 60px 50px;
+    }
+    .input-main-div{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo-w {
+        width: 200px;
+    }
+    .banner-cntnt h2 {
+        font-size: 30px;
+    }
+    .banner-slider .owl-dots{
+        display:none;
+    }
+    .nav-div{
+        padding: 12px 5px !important;
+    }
+    .copy-right-div{
+        flex-direction: column;
+    }
+    .social-media-icons{
+        margin-top: 10px;
+    }
+    .footer-line {
+        margin-top: 0px;
+        border: 1px solid #ffffff;
+    }
+    .about-tabs-head li a{
+        padding: 20px;
+    }
+    .w-30-per {
+        width: 40%;
+    }
+    .w-70-per {
+        width: 70%;
+    }
+    .footer-links li{
+        margin: 8px 0px;
+    }
+    .container-content h2 {
+        font-size: 35px;
+    }
+    .container-content h3{
+        font-size: 20px;
+    }
+    .main-sub-head{
+        font-size: 25px;
+    }
+    .abt-tabs {
+        margin-top: 0px;
+    }
+    .secndry-btn{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .primary-btn{
+        margin-top: 10px;
+    }
+    .inner-banner-cntnt h4{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .pdn-5{
+        padding-top: 0px;
+    }
+    .service-head h2{
+        font-size: 30px;
+    }
+    .inner-service{
+        padding: 50px 0px;
+    }
+    .innr-srvce-mrgin{
+        margin: 0;
+    }
+    .contact-section {
+        padding: 50px 0px;
+    }
+    .input-main-div {
+        padding: 30px 20px;
+    }
+    .form__group{
+        margin-top: 5px;
+    }
+    .input-main-div h3{
+        font-size: 30px;
+    }
+    .contact-box-div{
+        min-height: 100px;
+    }
+    .banner-cntnt h2 span {
+        font-size: 30px;
     }
 }

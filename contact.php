@@ -36,7 +36,7 @@
 
   <section class="contact-section">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-duration="1500">
         <div class="col-lg-4">
           <div class="contact-box-div">
             <div class="contact-box-icon">
@@ -74,10 +74,10 @@
       </div>
 
       <div class="input-main-div">
-        <h3>Let's Get In Touch</h3>
-        <h6>Your email address will not be published. Required fields are marked *</h6>
+        <h3 data-aos="fade-up" data-aos-duration="1500">Let's Get In Touch</h3>
+        <h6 data-aos="fade-up" data-aos-duration="1500">Your email address will not be published. Required fields are marked *</h6>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-duration="1500">
           <div class="col-lg-6">
             <div class="form__group field">
               <input type="input" class="form__field" placeholder="Name" required="">

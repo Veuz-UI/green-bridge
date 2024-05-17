@@ -8,12 +8,6 @@
           <h4>Join our newsletter</h4>
           <h5>We'll send you a nice letter once per week.no spam</h5>
         </div>
-        <div class="footer-newsletter-btn">
-          <input type="email" placeholder="Enter your email" class="footer-input">
-          <button type="button" class="primary-btn footer-sub-btn hover-btn-1">
-            View More
-          </button>
-        </div>
       </div>
       <div class="row mt-50">
         <div class="col-lg-8">
@@ -54,10 +48,18 @@
             <div class="col-lg-6">
               <h6 class="footer-link-head">Links</h6>
               <ul class="footer-links">
-                <li>Home</li>
-                <li>About us</li>
-                <li>Services</li>
-                <li>Contact Us</li>
+                <a href="index.php">
+                  <li>Home</li>
+                </a>
+                <a href="about.php">
+                  <li>About us</li>
+                </a>
+                <a href="service.php">
+                  <li>Services</li>
+                </a>
+                <a href="contact.php">
+                  <li>Contact Us</li>
+                </a>
               </ul>
             </div>
             <div class="col-lg-6">
@@ -77,8 +79,8 @@
     <hr class="footer-line">
      
     <div class="container">
-      <div class="d-flex justify-content-between mt-4">
-        <h6 class="all-right-reserve">© COPYRIGHTS © 2023 ALL RIGHTS RESERVED BY MEEM</h6>
+      <div class="copy-right-div">
+        <h6 class="all-right-reserve">© COPYRIGHTS © 2024 ALL RIGHTS RESERVED BY GREEN BRIDGE</h6>
         <div class="social-media-icons">
           <img src="assets/img/facebook.svg" alt="">
           <img src="assets/img/instagram.svg" alt="">

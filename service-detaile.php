@@ -52,6 +52,43 @@
                     <a class="nav-link tab-head" id="nav-srvce-4-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-4" type="button" role="tab" aria-controls="nav-srvce-4" aria-selected="false"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Freight Forwarding</h4></a>
                   </div>
                 </nav>
+
+                <div class="srvce-sidebar">
+                  <h5>Get in Touch</h5>
+                  <p>Get immediate quotes & book shipment.</p>
+
+                  <div class="srvce-inputs">
+                    <input type="text" placeholder="Your Name">
+                  </div>
+                  <div class="srvce-inputs">
+                    <input type="text" placeholder="Your Email">
+                  </div>
+                  <div class="srvce-inputs">
+                    <textarea name="" id="" cols="20" placeholder="Enter Message"></textarea>
+                  </div>
+
+
+                  <button type="button" class="primary-btn hover-btn-1">
+                    Submit
+                  </button>
+                </div> 
+
+                <div class="srvce-sidebar-2">
+                  <h5>Best Logistics</h5>
+                  <h6>Support center 24/7</h6>
+
+                  <a href="">
+                    <p>+966 53 394 4424</p>
+                  </a>
+
+                  <h6>Get in touch with us</h6>
+
+                  <a href="">
+                    <p>a.khan@aljussour.com</p>
+                  </a>
+                </div>
+
+                
           </div>
           <div class="col-lg-9" data-aos="fade-left" data-aos-duration="1000">
               <div class="tab-content" id="nav-tabContent">
@@ -100,7 +137,7 @@
                     <div class="srvce-cntnt">
                       <h2>Terminal & Storage Services  </h2>
                       <div class="servce-inner-img">
-                        <img src="assets/img/transportation/transport-1.jpg" alt="" class="img-fluid">
+                        <img src="assets/img/terminal/terminal.png" alt="" class="img-fluid">
                       </div>
                       <p>Providing complete Terminal Services</p>
 
@@ -129,24 +166,102 @@
                   </div>
                   </div>
                   <div class="tab-pane fade" id="nav-srvce-3" role="tabpanel" aria-labelledby="nav-srvce-3-tab">
-                      <div class="srvce-cntnt">
-                          <p>We work on consolidating our clients portfolios, monthly and quarterly, to track and monitor their current versus Strategic Asset Allocation and to analyze the portfolios overall performance. This consolidation is our key to monitor potential risks, rebalancing the portfolios, and actively planning the client’s forward investments.</p>
-                          <a href="service.html #srvice-3">
-                              <button class="srvce-btn">View More
-                              <span><i class="fas fa-arrow-right"></i></span>
-                          </button>
-                          </a>
+                    <div class="srvce-cntnt">
+                      <h2> Providing Customs Clearance throughout KSA
+                      </h2>
+                      <div class="servce-inner-img">
+                        <img src="assets/img/clearance/img-1.png" alt="" class="img-fluid">
                       </div>
+                      <p>Providing Customs Clearance throughout KSA
+                      </p>
+                      <div class="srvce-inner-cntns">
+                        <h3>Project Logistics</h3>
+                        <ul>
+                          <li>
+                            The complex requirements that encompass the transportation of heavy and over-dimensional equipment requires integrated logistics project management and transportation services to ensure your freight reaches its destination safely and on time
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="srvce-inner-cntns">
+                        <h3>Cross Border Checkpoints</h3>
+                        <div class="box-points">
+                          <h6>Salwa - Qatar</h6>
+                          <h6>Al Khafji - Kuwait</h6>
+                          <h6>Batha -  UAE</h6>
+                          <h6>Jordan</h6>
+                          <h6>King Fahad Causeway - Bahrain</h6>
+
+                          
+                        </div>
+                      </div>
+
+                      <div class="srvce-inner-cntns">
+                        <h3>Ports</h3>
+                        <div class="box-points">
+                          <h6>King Fahad Industrial Port, Jubail</h6>
+                          <h6>King Fahad Industrial Port, Yanbu</h6>
+                          <h6>King Fahad Causeway - Bahrain</h6>
+                          <h6>King Abdul Aziz Port, Dammam</h6>
+                          <h6>Jubail Commercial Port</h6>
+                          <h6>Yanbu Commercial Port</h6>
+                          <h6>Jizan Port</h6>
+                          <h6>Dhiba Port</h6>
+
+                          
+                        </div>
+                      </div>
+
+                      <div class="srvce-inner-cntns">
+                        <h3>Airports</h3>
+                        <div class="box-points">
+                          <h6>DMM -King Fahd International Airport</h6>
+                          <h6>RUH -King Khalid International Airport</h6>
+                          <h6>JED-King Abdulaziz International Airport</h6>
+                        </div>
+                      </div>
+                  </div>
                   </div>
                   <div class="tab-pane fade" id="nav-srvce-4" role="tabpanel" aria-labelledby="nav-srvce-4-tab">
                     <div class="srvce-cntnt">
-                        <p>We work on consolidating our clients portfolios, monthly and quarterly, to track and monitor their current versus Strategic Asset Allocation and to analyze the portfolios overall performance. This consolidation is our key to monitor potential risks, rebalancing the portfolios, and actively planning the client's forward investments.dddddddddddddddd</p>
-                        <a href="service.html #srvice-3">
-                            <button class="srvce-btn">View More
-                            <span><i class="fas fa-arrow-right"></i></span>
-                        </button>
-                        </a>
-                    </div>
+                      <h2> Providing Freight Forwarding Services
+                      </h2>
+                      <div class="servce-inner-img">
+                        <img src="assets/img/freight/img-1.png" alt="" class="img-fluid">
+                      </div>
+                      <p>Providing Complete Freight Forwarding through Land/Air/Sea
+                      </p>
+
+
+                      <div class="srvce-inner-cntns">
+                        <h3>Land</h3>
+                        <ul>
+                          <li>
+                            Dammam and Jubail. Import and Export . Customs Clearance.
+                          </li>
+                        </ul>
+                      </div>
+                    
+                      <div class="srvce-inner-cntns">
+                        <h3>Air</h3>
+                        <ul>
+                          
+                          <li>
+                            Transit Cargo Customs Clearance at Dammam Seaport.
+                          </li>
+                          
+                        </ul>
+                      </div>
+
+                      <div class="srvce-inner-cntns">
+                        <h3>Sea</h3>
+                        <ul>
+                          <li>
+                            Servicing through all major Sea Ports.
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
                 </div>
                 </div>
           </div>
