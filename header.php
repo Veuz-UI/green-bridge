@@ -18,7 +18,7 @@
               <a class="nav-link" href="service.php">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+              <a class="nav-link" href="contact.php">Contact us</a>
             </li>
           </ul>
         </div>

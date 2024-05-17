@@ -46,10 +46,10 @@
               <nav>
                   <div class="nav nav-tabs srvice-tabs" id="nav-tab" role="tablist">
                   
-                    <a class="nav-link tab-head active" id="nav-srvce-1-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-1" type="button" role="tab" aria-controls="nav-srvce-1" aria-selected="true"><h4>Complete Transportation</h4></a>
-                    <a class="nav-link tab-head" id="nav-srvce-2-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-2" type="button" role="tab" aria-controls="nav-srvce-2" aria-selected="false"><h4>Terminal Services</h4></a>
-                    <a class="nav-link tab-head" id="nav-srvce-3-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-3" type="button" role="tab" aria-controls="nav-srvce-3" aria-selected="false"><h4>Customs Clearance</h4></a>
-                    <a class="nav-link tab-head" id="nav-srvce-4-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-4" type="button" role="tab" aria-controls="nav-srvce-4" aria-selected="false"><h4>Freight Forwarding</h4></a>
+                    <a class="nav-link tab-head active" id="nav-srvce-1-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-1" type="button" role="tab" aria-controls="nav-srvce-1" aria-selected="true"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Complete Transportation</h4></a>
+                    <a class="nav-link tab-head" id="nav-srvce-2-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-2" type="button" role="tab" aria-controls="nav-srvce-2" aria-selected="false"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Terminal Services</h4></a>
+                    <a class="nav-link tab-head" id="nav-srvce-3-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-3" type="button" role="tab" aria-controls="nav-srvce-3" aria-selected="false"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Customs Clearance</h4></a>
+                    <a class="nav-link tab-head" id="nav-srvce-4-tab" data-bs-toggle="tab" data-bs-target="#nav-srvce-4" type="button" role="tab" aria-controls="nav-srvce-4" aria-selected="false"><h4><i class="fa fa-angle-right" aria-hidden="true"></i>Freight Forwarding</h4></a>
                   </div>
                 </nav>
           </div>
